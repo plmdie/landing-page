@@ -16,6 +16,12 @@ header {
     padding: 20px 20%;
 }
 
+@media (max-width: 480px) {
+    header {
+        padding: 5px 5px;
+    }
+}
+
 a {
     text-decoration: none;
     color: #ECCE8E;
@@ -94,6 +100,13 @@ ul  a:hover::before {
     width: auto;
     border-radius: 10px;
     justify-self: center;
+}
+
+@media (max-width: 480px) {
+    .right img {
+        height: 40vh;
+        flex-grow: 1;
+    }
 }
 
 .left h1 {
