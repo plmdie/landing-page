@@ -96,7 +96,7 @@ ul  a:hover::before {
 
 .right img {
     flex-shrink: 1;
-    height: 50vh;
+    height: 45vh;
     width: auto;
     border-radius: 10px;
     justify-self: center;
@@ -155,7 +155,7 @@ ul  a:hover::before {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px;
     padding-bottom: 60px;
 }
