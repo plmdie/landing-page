@@ -70,9 +70,11 @@ ul  a:hover::before {
 .hero {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding-top: 60px;
     padding-bottom: 60px;  
+    gap: 20px;
 }
 
 .left {  
@@ -88,10 +90,10 @@ ul  a:hover::before {
 
 .right img {
     flex-shrink: 1;
-    height: 300px;
+    height: 60vh;
     width: auto;
     border-radius: 10px;
-    
+    justify-self: center;
 }
 
 .left h1 {
